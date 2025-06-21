@@ -1,0 +1,629 @@
+@media only screen and (max-width: 850px) {
+  #bar {
+    flex-direction: column;
+    position: static;
+    left: 0;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  #introduce {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #image {
+    position: static;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #socialmedia {
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0;
+    top: 0;
+  }
+
+  button {
+    left: 0;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #About, #TechnicalSKILLS, #projects, #Contact {
+    padding: 20px;
+  }
+
+  #plot2 {
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #plot2 input,
+  #plot2 textarea {
+    width: 90%;
+  }
+
+  #projectinfo,
+  #projectsall {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #p1 {
+    margin: 20px 0;
+  }
+
+  #bar > a > h1 {
+    font-size: 18px;
+  }
+}
+
+body{
+    overflow-x: hidden;
+     background-color: #00bfff rgb(11, 58, 99);
+     flex-wrap: wrap;
+}
+#mainpage{
+    background-color: rgb(15, 41, 72);
+    height: 600px;
+}
+/* #nav1{
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(11, 58, 99);
+    position: fixed;
+  padding: -10px;
+  margin-top: -20px;
+  z-index: 1000;
+  scroll-margin-top: 100px;
+
+} */
+
+#nav1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(11, 58, 99);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    scroll-margin-top: 100px;
+}
+
+#bar>a{
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+#bar>a:hover{
+    color: aqua;
+}
+#bar{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+     position: relative;
+    left: 600px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+#introduce{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 540px;
+}
+#hello{
+color: white;
+font-size: 30px;
+}
+#name{
+    font-size: 60px;
+    color: white;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+#education{
+    color: white;
+    font-size: 24px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+#Skill{
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#web{
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: -70px;
+    line-height: 30px;
+}
+#image{
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 240px;
+    width: 220px;
+    position: relative;
+left: 700px;
+top: -270px;
+background-image: url(./images/WhatsApp\ Image\ 2025-06-17\ at\ 16.26.44_1bcd1d81.jpg);
+background-size: 220px 235px;
+background-repeat: no-repeat;
+   box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+}
+#image:hover{
+   box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff;
+  transform: scale(1.05);
+}
+
+#socialmedia{
+    font-size: 30px;
+    position: relative;
+    top: -100px;
+    left: 250px;
+    display: flex;
+   
+   gap: 30px;
+   
+    
+}
+.fa-brands{
+    color: white;
+     box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+ background-color: rgb(11, 58, 99);
+    
+}
+.fa-brands:hover{
+    
+     box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff;
+  transform: scale(1.05);
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: -70px;
+    left: 250px;
+    font-size: 20px;
+    border-color: white;
+}
+.glow-button {
+  /* padding: 12px 25px; */
+  font-size: 16px;
+  color: black;
+  background-color:white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff;
+  transform: scale(1.05);
+}
+#About{
+    background-color: rgb(15, 41, 72);
+    height: 500px;
+}
+#About>h1{
+    color: white;
+    font-size: 55px;
+    position: relative;
+    left: 500px;
+    top: 10px;
+   
+}
+#me{
+    color: aqua;
+}
+#graduate{
+color: white;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: relative;
+left: 400px;
+top: -25px;
+}
+#information{
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+text-shadow: 10  0px white;
+font-weight: 100;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+width: 700px;
+position: relative;
+left: 400px;
+top: -35px;
+}
+.glow-buttonAbout{
+     font-size: 16px;
+  color: black;
+  background-color:white;
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  top: -20px;
+  left: 500px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+}
+.glow-buttonAbout:hover {
+  box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff;
+  transform: scale(1.05);
+}
+#imageAbout{
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 240px;
+    width: 220px;
+    position: relative;
+left: 100px;
+top: -350px;
+background-image: url(./images/WhatsApp\ Image\ 2025-06-17\ at\ 16.26.44_1bcd1d81.jpg);
+background-size: 220px 235px;
+background-repeat: no-repeat;
+   box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+}
+#imageAbout:hover{
+   box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff;
+  transform: scale(1.05);
+}
+#About,#TechnicalSKILLS{
+    padding-top: 100px;  /* Adjust as needed */
+    scroll-margin-top: 100px;  /* Ensures scroll lands in right spot */
+}
+#TechnicalSKILLS{
+    padding-top: 10px;  
+    scroll-margin-top: 10px;  
+}
+#TechnicalSKILLS{
+    background-color: rgb(15, 41, 72);
+  
+
+}
+#TechnicalSKILLS>h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 540px;
+    top: 30px;
+    height: 500px;
+}
+#TechnicalSKILLS>h2{
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 530px;
+    top: -440px;
+    height: 500px;
+}
+#sk{
+    color:aqua;
+}
+#allskills>span{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 200px;
+
+}
+#allskills{
+    display: flex;
+    gap: 40px;
+}
+#allskills>div{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    position: relative;
+    top: -900px;
+}
+#soft{
+    color: white;
+    font-size: 30px;
+    position:relative ;
+    top: -900px;
+    left: 550px;
+}
+.skill{
+    height: 18px;
+    width: 180px;
+    /* background-color: #00bfff; */
+
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgb(0, 0,0,0.15),
+                -6px -6px 10px -1px rgb(225, 225,225,0.7);
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border:2px solid red; */
+    box-shadow: inset 6px 6px 10px -1px rgb(0, 0,0,0.15),
+               inset  -6px -6px 10px -1px rgb(225, 225,225,0.7);
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+}
+.num1{
+    font-size: 30px;
+  
+}
+/* circle{
+    fill: none;
+    stroke-width: 20px;
+    stroke: url(#GradientColor);
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165.5;
+    }
+}
+svg{
+    position: relative;
+    top: -160px;
+    left: 0px;
+} */
+
+
+circle {
+  fill: none;
+  stroke-width: 20px;
+  stroke:aqua;
+  stroke-dasharray: 440; /* Total circumference */
+  stroke-dashoffset: 440; /* Hidden initially */
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+svg {
+  position: relative;
+  top: -160px;
+  left: 0;
+}
+
+#creative{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  position: relative;
+  top: -900px;
+}
+.things{
+    color: white;
+    position: relative;
+    top: -175px;
+    left: 10px;
+}
+#my{
+    color: rgb(236, 233, 233);
+    font-size: 50px;
+    position: relative;
+    top: -400px;
+    left: 480px;
+
+}
+#projects{
+     background-color: rgb(15, 41, 72);
+    position: relative;
+    top: -200px;
+    height: 500px;
+
+}
+#p1 {
+  height: 280px;
+  width: 380px;
+  /* border: 2px solid red; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+ color: white;
+ box-shadow: 0 0 15px rgba(11, 78, 222, 0.5);
+ position: relative;
+ top: -400px;
+ z-index: 1;
+ font-size: 20px;
+ margin-left: 20px;
+
+}
+#info{
+    /* border: 2px solid red; */
+  width:300px;
+  margin-left: 50px;
+  margin-top: -15px;
+  line-height: 30px;
+ 
+  
+}
+
+#p1>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.glow-button1{
+     font-size: 16px;
+  color: black;
+  background-color:aqua;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00bfff;
+  transition: 0.3s ease-in-out;
+  width: 160px;
+  position: relative;
+  left: 110px;
+  top: 13px;
+}
+
+.glow-button1:hover {
+  box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff, 0 0 60px #00bfff;
+  transform: scale(1.05);
+}
+#projectsall{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#info>p>span{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#projectinfo{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    z-index: -40;
+}
+#Contact{
+     background-color: rgb(15, 41, 72);
+    position: relative;
+    top:-300px;
+    height: 700px;
+}
+#plot1{
+    /* border: 2px solid red; */
+    
+    width: 650px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    
+}
+#plot1>h1{
+color: white;
+font-size: 60px;
+margin-left:130px;
+}
+#let{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+#iam{
+ color: white;
+ font-size: 20px;
+ line-height: 30px;
+ 
+
+
+}
+#plotin{
+    color: white;
+    font-size: 17px;
+    margin-left: 200px;
+    margin-top: 50px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#no{
+    margin-left: 50px;
+}
+#plot2{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 700px;
+    top: -280px;
+
+}
+#plot2>input{
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(186, 177, 177);
+}
+#plot2>textarea{
+    height: 150px;
+    width: 450px;
+    font-size: 20px;
+   color: black;
+    border-radius: 10px;
+    background-color: rgb(186, 177, 177);
+
+}
+#submit:hover{
+    cursor: pointer;
+}
+#certificate
+{
+    background-color: rgb(15, 41, 72);
+    height: 600px;
+    width: 100%;
+   position: relative;
+   top: -340px;
+}
+#certificate>h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 400px;
+    top: 25px;
+}
+#certificate>img{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    box-shadow:  0 0 15px 15px rgba(11, 78, 222, 0.5);;
+}
+#certificate>img:hover{
+    box-shadow: 0px 0px 20px 20px rgba(7, 164, 203, 0.7);
+    cursor: pointer;
+}
+#line{
+    font-size: 40px;
+    position: relative;
+    top: -440px;
+    left: 70px;
+    color: white;
+}
+#end{
+    position: relative;
+    top: -470px;
+    width: 1050px;
+    left: 100px;
+}
